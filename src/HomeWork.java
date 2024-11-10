@@ -4,8 +4,8 @@ public class HomeWork {
         task2();
         task3();
         task4();
-        //task5();
-        //task6();
+        task5();
+        task6();
         //task7();
         //task8();
         //task9();
@@ -86,5 +86,30 @@ public class HomeWork {
         System.out.printf("Если в компании работает " + bigCompany + " человека, то всего " + hourInBigCompany + " часа работы может быть поделено между сотрудниками");
     }
 
-}
+    public static void task5() {
+        int firstClass = 23;
+        int secondClass = 27;
+        int thirdClass = 30;
+        int paper = 480;
+        int totalStudents = firstClass+secondClass+thirdClass;
+        int paperForStudent = paper/totalStudents;
+        System.out.printf("=================");
+        System.out.println();
+        System.out.printf("Cледующее задание");
+        System.out.println();
+        System.out.println("На каждого ученика рассчитано " + paperForStudent + " листов бумаги");
+    }
+
+    public static void task6() {
+        int machinePerformance = 16;
+        int timeInTwentyMinutes = 20 / 2;
+        int timeInOneDay = 24 * 60 / 2;
+        int timeInThreeDays = timeInOneDay * 3;
+        int timeInMonth = timeInThreeDays * 10;
+        System.out.println();
+        System.out.printf("==================");
+        System.out.println();
+        System.out.println("За 20 минут " + " машина произвела " + timeInTwentyMinutes * machinePerformance + " штук бутылок ");
+    }
+    }
 
