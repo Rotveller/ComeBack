@@ -3,7 +3,7 @@ public class HomeWork {
         task1();
         task2();
         task3();
-        //task4();
+        task4();
         //task5();
         //task6();
         //task7();
@@ -55,9 +55,36 @@ public class HomeWork {
     }
 
     public static void task3() {
-
+        System.out.printf("Cледующее задание");
+        System.out.println();
+        var boxingFighter = 78.2;
+        var boxingFighter2 = 82.7;
+        var totalWeight = boxingFighter + boxingFighter2;
+        System.out.println(totalWeight);
+        System.out.printf("================");
+        var difference = boxingFighter - boxingFighter2;
+        System.out.println();
+        System.out.println(difference);
+        System.out.printf("Cледующее задание");
+        System.out.println();
+        var difference2 = boxingFighter2 - boxingFighter;
+        System.out.println(difference2);
+        var difference3 = boxingFighter2 % boxingFighter;
+        System.out.println(difference3);
     }
 
+    public static void task4() {
+        var totalHour = 640;
+        var hourOneWorker = 8;
+        var totalWokers = totalHour / hourOneWorker;
+        System.out.printf("Всего работников в компании - " + totalWokers + " человек");
+        var bigCompany = totalWokers + 94;
+        var hourInBigCompany = totalHour / bigCompany;
+        System.out.println();
+        System.out.printf("=========");
+        System.out.println();
+        System.out.printf("Если в компании работает " + bigCompany + " человека, то всего " + hourInBigCompany + " часа работы может быть поделено между сотрудниками");
+    }
 
 }
 
