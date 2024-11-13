@@ -1,20 +1,22 @@
 public class HomeWork {
     public static void main(String[] args) {
-        task1();
+       /* task1();
         task2();
         task3();
         task4();
         task5();
         task6();
-        //task7();
-        //task8();
+
+        task7();
+        */
+        task8();
         //task9();
         //task10();
 
 
     }
 
-    public static void task1() {
+   /* public static void task1() {
         int a = 114151515;
         byte b = 12;
         short c = 11415;
@@ -111,5 +113,44 @@ public class HomeWork {
         System.out.println();
         System.out.println("За 20 минут " + " машина произвела " + timeInTwentyMinutes * machinePerformance + " штук бутылок ");
     }
-    }
+
+    public static void task7() {
+        int age =125;
+        boolean kindergarten = age >= 2 && age <= 6;
+        boolean goSchool = age >= 7 && age <= 18 ;
+        boolean goUniversity = age >= 19 && age <= 24;
+        boolean goWork = age >= 24 && age <120;
+        boolean cyborgKiller = age >121;
+        if (kindergarten){
+            System.out.println("Молодой человек вам нужно в садик");
+        }
+        if (goSchool){
+            System.out.println("Молодой человек вам нужно в школу");
+        }
+        if (goUniversity){
+            System.out.println("Молодой человек вам нужно в университет");
+        }
+        if (goWork){
+            System.out.println("Молодой человек вам нужно на работу");
+        }if (cyborgKiller) {
+            System.out.println("Вы киборг убийца");
+        }
+    */
+   public static void task8() {
+       int passengerPlace = -1;
+       boolean passengerSeating = passengerPlace <60&& passengerPlace>0;
+       boolean passengerStandUp = 61 <=passengerPlace && passengerPlace <=102;
+       boolean magic = passengerPlace > 102 || passengerPlace <0;
+       if (passengerSeating){
+           System.out.println("Бро тебе повезло садись");
+       }
+       if (passengerStandUp){
+           System.out.println("Вставай лошарик");
+       }
+       if (magic){
+           System.out.println("Магия вне хогвартса");
+       }
+   }
+}
+
 
